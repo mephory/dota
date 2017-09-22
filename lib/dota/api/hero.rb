@@ -3,7 +3,8 @@ module Dota
     class Hero
       include Utilities::Mapped
 
-      attr_reader :id, :name
+      attr_reader :id, :name, :range_type, :num_legs, :flying, :floating,
+        :mounted, :colors, :roles, :tags, :avg_color
 
       def self.find(id)
         hero = mapping[id]
