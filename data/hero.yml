@@ -1,339 +1,2087 @@
 1:
-  - antimage
-  - Anti-Mage
+  - internal_name: 'antimage'
+  - avg_color: '#3D2331'
+  - name: 'Anti-Mage'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - carry
+    - escape
+    - nuker
+  - tags:
+    - TODO
 2:
-  - axe
-  - Axe
+  - internal_name: 'axe'
+  - avg_color: '#3F1C1A'
+  - name: 'Axe'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - initiator
+    - durable
+    - disabler
+    - jungler
+  - tags:
+    - TODO
 3:
-  - bane
-  - Bane
+  - internal_name: 'bane'
+  - avg_color: '#312648'
+  - name: 'Bane'
+  - range_type: 'ranged'
+  - num_legs: 4
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - support
+    - disabler
+    - nuker
+    - durable
+  - tags:
+    - TODO
 4:
-  - bloodseeker
-  - Bloodseeker
+  - internal_name: 'bloodseeker'
+  - avg_color: '#412117'
+  - name: 'Bloodseeker'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - carry
+    - disabler
+    - jungler
+    - nuker
+    - initiator
+  - tags:
+    - TODO
 5:
-  - crystal_maiden
-  - Crystal Maiden
+  - internal_name: 'crystal_maiden'
+  - avg_color: '#5A6776'
+  - name: 'Crystal Maiden'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - support
+    - disabler
+    - nuker
+    - jungler
+  - tags:
+    - TODO
 6:
-  - drow_ranger
-  - Drow Ranger
+  - internal_name: 'drow_ranger'
+  - avg_color: '#2F3B53'
+  - name: 'Drow Ranger'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - disabler
+    - pusher
+  - tags:
+    - archer
 7:
-  - earthshaker
-  - Earthshaker
+  - internal_name: 'earthshaker'
+  - avg_color: '#5B3217'
+  - name: 'Earthshaker'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+  - roles:
+    - support
+    - initiator
+    - disabler
+    - nuker
+  - tags:
+    - nature
 8:
-  - juggernaut
-  - Juggernaut
+  - internal_name: 'juggernaut'
+  - avg_color: '#604629'
+  - name: 'Juggernaut'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - red
+  - roles:
+    - carry
+    - pusher
+    - escape
+  - tags:
+    - swordsman
 9:
-  - mirana
-  - Mirana
+  - internal_name: 'mirana'
+  - avg_color: '#354457'
+  - name: 'Mirana'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - blue
+    - white
+  - roles:
+    - carry
+    - support
+    - escape
+    - nuker
+    - disabler
+  - tags:
+    - archer
 10:
-  - morphling
-  - Morphling
+  - internal_name: 'morphling'
+  - avg_color: '#287B89'
+  - name: 'Morphling'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - escape
+    - durable
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 11:
-  - nevermore
-  - Shadow Fiend
+  - internal_name: 'nevermore'
+  - avg_color: '#2C1010'
+  - name: 'Shadow Fiend'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - black
+    - red
+  - roles:
+    - carry
+    - nuker
+  - tags:
+    - TODO
 12:
-  - phantom_lancer
-  - Phantom Lancer
+  - internal_name: 'phantom_lancer'
+  - avg_color: '#3E3E3C'
+  - name: 'Phantom Lancer'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - escape
+    - pusher
+    - nuker
+  - tags:
+    - TODO
 13:
-  - puck
-  - Puck
+  - internal_name: 'puck'
+  - avg_color: '#3B538F'
+  - name: 'Puck'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - initiator
+    - disabler
+    - escape
+    - nuker
+  - tags:
+    - TODO
 14:
-  - pudge
-  - Pudge
+  - internal_name: 'pudge'
+  - avg_color: '#635830'
+  - name: 'Pudge'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+  - roles:
+    - disabler
+    - initiator
+    - durable
+    - nuker
+  - tags:
+    - TODO
 15:
-  - razor
-  - Razor
+  - internal_name: 'razor'
+  - avg_color: '#084260'
+  - name: 'Razor'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - durable
+    - nuker
+    - pusher
+  - tags:
+    - TODO
 16:
-  - sand_king
-  - Sand King
+  - internal_name: 'sand_king'
+  - avg_color: '#573C0A'
+  - name: 'Sand King'
+  - range_type: 'melee'
+  - num_legs: 6
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+  - roles:
+    - initiator
+    - disabler
+    - nuker
+    - escape
+    - jungler
+  - tags:
+    - TODO
 17:
-  - storm_spirit
-  - Storm Spirit
+  - internal_name: 'storm_spirit'
+  - avg_color: '#356385'
+  - name: 'Storm Spirit'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - escape
+    - nuker
+    - initiator
+    - disabler
+  - tags:
+    - TODO
 18:
-  - sven
-  - Sven
+  - internal_name: 'sven'
+  - avg_color: '#213846'
+  - name: 'Sven'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - disabler
+    - initiator
+    - durable
+    - nuker
+  - tags:
+    - TODO
 19:
-  - tiny
-  - Tiny
+  - internal_name: 'tiny'
+  - avg_color: '#435152'
+  - name: 'Tiny'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - white
+  - roles:
+    - carry
+    - nuker
+    - pusher
+    - initiator
+    - durable
+    - disabler
+  - tags:
+    - nature
 20:
-  - vengefulspirit
-  - Vengeful Spirit
+  - internal_name: 'vengefulspirit'
+  - avg_color: '#445D8B'
+  - name: 'Vengeful Spirit'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - support
+    - initiator
+    - disabler
+    - nuker
+    - escape
+  - tags:
+    - TODO
 21:
-  - windrunner
-  - Windranger
+  - internal_name: 'windrunner'
+  - avg_color: '#62531F'
+  - name: 'Windranger'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - support
+    - disabler
+    - escape
+    - nuker
+  - tags:
+    - archer
 22:
-  - zuus
-  - Zeus
+  - internal_name: 'zuus'
+  - avg_color: '#4F697D'
+  - name: 'Zeus'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - nuker
+  - tags:
+    - god
 23:
-  - kunkka
-  - Kunkka
+  - internal_name: 'kunkka'
+  - avg_color: '#414F52'
+  - name: 'Kunkka'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - disabler
+    - initiator
+    - durable
+    - nuker
+  - tags:
+    - sea
 25:
-  - lina
-  - Lina
+  - internal_name: 'lina'
+  - avg_color: '#773828'
+  - name: 'Lina'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - support
+    - carry
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 26:
-  - lion
-  - Lion
+  - internal_name: 'lion'
+  - avg_color: '#47291F'
+  - name: 'Lion'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - support
+    - disabler
+    - nuker
+    - initiator
+  - tags:
+    - TODO
 27:
-  - shadow_shaman
-  - Shadow Shaman
+  - internal_name: 'shadow_shaman'
+  - avg_color: '#2E2A2A'
+  - name: 'Shadow Shaman'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+    - orange
+  - roles:
+    - support
+    - pusher
+    - dsiabler
+    - nuker
+    - initiator
+  - tags:
+    - TODO
 28:
-  - slardar
-  - Slardar
+  - internal_name: 'slardar'
+  - avg_color: '#0F514F'
+  - name: 'Slardar'
+  - range_type: 'melee'
+  - num_legs: 0
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - carry
+    - durable
+    - initiator
+    - disabler
+    - escape
+  - tags:
+    - sea
 29:
-  - tidehunter
-  - Tidehunter
+  - internal_name: 'tidehunter'
+  - avg_color: '#0C4F44'
+  - name: 'Tidehunter'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - blue
+  - roles:
+    - initiator
+    - durable
+    - disabler
+    - nuker
+  - tags:
+    - sea
 30:
-  - witch_doctor
-  - Witch Doctor
+  - internal_name: 'witch_doctor'
+  - avg_color: '#302D3E'
+  - name: 'Witch Doctor'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - support
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 31:
-  - lich
-  - Lich
+  - internal_name: 'lich'
+  - avg_color: '#2B4153'
+  - name: 'Lich'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - support
+    - nuker
+  - tags:
+    - TODO
 32:
-  - riki
-  - Riki
+  - internal_name: 'riki'
+  - avg_color: '#18345F'
+  - name: 'Riki'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - carry
+    - escape
+    - disabler
+  - tags:
+    - TODO
 33:
-  - enigma
-  - Enigma
+  - internal_name: 'enigma'
+  - avg_color: '#2F3180'
+  - name: 'Enigma'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - disabler
+    - jungler
+    - initiator
+    - pusher
+  - tags:
+    - TODO
 34:
-  - tinker
-  - Tinker
+  - internal_name: 'tinker'
+  - avg_color: '#594430'
+  - name: 'Tinker'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+  - roles:
+    - carry
+    - nuker
+    - pusher
+  - tags:
+    - TODO
 35:
-  - sniper
-  - Sniper
+  - internal_name: 'sniper'
+  - avg_color: '#5C5758'
+  - name: 'Sniper'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+    - red
+  - roles:
+    - carry
+    - nuker
+  - tags:
+    - TODO
 36:
-  - necrolyte
-  - Necrophos
+  - internal_name: 'necrolyte'
+  - avg_color: '#386C3A'
+  - name: 'Necrophos'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - nuker
+    - durable
+    - disabler
+  - tags:
+    - TODO
 37:
-  - warlock
-  - Warlock
+  - internal_name: 'warlock'
+  - avg_color: '#46231F'
+  - name: 'Warlock'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - support
+    - initiator
+    - disabler
+  - tags:
+    - TODO
 38:
-  - beastmaster
-  - Beastmaster
+  - internal_name: 'beastmaster'
+  - avg_color: '#57361B'
+  - name: 'Beastmaster'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - initiator
+    - disabler
+    - durable
+    - nuker
+  - tags:
+    - nature
 39:
-  - queenofpain
-  - Queen of Pain
+  - internal_name: 'queenofpain'
+  - avg_color: '#402E37'
+  - name: 'Queen of Pain'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+    - red
+  - roles:
+    - carry
+    - nuker
+    - escape
+  - tags:
+    - TODO
 40:
-  - venomancer
-  - Venomancer
+  - internal_name: 'venomancer'
+  - avg_color: '#3E390E'
+  - name: 'Venomancer'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - support
+    - nuker
+    - initiator
+    - pusher
+    - disabler
+  - tags:
+    - TODO
 41:
-  - faceless_void
-  - Faceless Void
+  - internal_name: 'faceless_void'
+  - avg_color: '#443364'
+  - name: 'Faceless Void'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - carry
+    - initiator
+    - disabler
+    - escape
+    - durable
+  - tags:
+    - TODO
 42:
-  - skeleton_king
-  - Wraith King
+  - internal_name: 'skeleton_king'
+  - avg_color: '#244729'
+  - name: 'Wraith King'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - support
+    - durable
+    - disabler
+    - initiator
+  - tags:
+    - TODO
 43:
-  - death_prophet
-  - Death Prophet
+  - internal_name: 'death_prophet'
+  - avg_color: '#5A7664'
+  - name: 'Death Prophet'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - pusher
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 44:
-  - phantom_assassin
-  - Phantom Assassin
+  - internal_name: 'phantom_assassin'
+  - avg_color: '#1E363F'
+  - name: 'Phantom Assassin'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+    - gray
+  - roles:
+    - carry
+    - escape
+  - tags:
+    - TODO
 45:
-  - pugna
-  - Pugna
+  - internal_name: 'pugna'
+  - avg_color: '#4C6C14'
+  - name: 'Pugna'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - nuker
+    - pusher
+  - tags:
+    - TODO
 46:
-  - templar_assassin
-  - Templar Assassin
+  - internal_name: 'templar_assassin'
+  - avg_color: '#433C61'
+  - name: 'Templar Assassin'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - carry
+    - escape
+  - tags:
+    - TODO
 47:
-  - viper
-  - Viper
+  - internal_name: 'viper'
+  - avg_color: '#103136'
+  - name: 'Viper'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - durable
+    - initiator
+    - disabler
+  - tags:
+    - TODO
 48:
-  - luna
-  - Luna
+  - internal_name: 'luna'
+  - avg_color: '#342935'
+  - name: 'Luna'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - nuker
+    - pusher
+  - tags:
+    - TODO
 49:
-  - dragon_knight
-  - Dragon Knight
+  - internal_name: 'dragon_knight'
+  - avg_color: '#492A1E'
+  - name: 'Dragon Knight'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - gray
+  - roles:
+    - carry
+    - pusher
+    - durable
+    - disabler
+    - initiator
+    - nuker
+  - tags:
+    - TODO
 50:
-  - dazzle
-  - Dazzle
+  - internal_name: 'dazzle'
+  - avg_color: '#3B293E'
+  - name: 'Dazzle'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - support
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 51:
-  - rattletrap
-  - Clockwerk
+  - internal_name: 'rattletrap'
+  - avg_color: '#654B3E'
+  - name: 'Clockwerk'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - yellow
+    - white
+  - roles:
+    - initiator
+    - disabler
+    - durable
+    - nuker
+  - tags:
+    - TODO
 52:
-  - leshrac
-  - Leshrac
+  - internal_name: 'leshrac'
+  - avg_color: '#2E565D'
+  - name: 'Leshrac'
+  - range_type: 'ranged'
+  - num_legs: 4
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - support
+    - nuker
+    - pusher
+    - disabler
+  - tags:
+    - TODO
 53:
-  - furion
-  - Nature's Prophet
+  - internal_name: 'furion'
+  - avg_color: '#274033'
+  - name: 'Nature's Prophet'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - jungler
+    - pusher
+    - escape
+    - nuker
+  - tags:
+    - nature
 54:
-  - life_stealer
-  - Lifestealer
+  - internal_name: 'life_stealer'
+  - avg_color: '#4F2F1A'
+  - name: 'Lifestealer'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - red
+  - roles:
+    - carry
+    - durable
+    - jungler
+    - escape
+    - disabler
+  - tags:
+    - TODO
 55:
-  - dark_seer
-  - Dark Seer
+  - internal_name: 'dark_seer'
+  - avg_color: '#2D204C'
+  - name: 'Dark Seer'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - initiator
+    - jungler
+    - escape
+    - disabler
+  - tags:
+    - TODO
 56:
-  - clinkz
-  - Clinkz
+  - internal_name: 'clinkz'
+  - avg_color: '#502F16'
+  - name: 'Clinkz'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+  - roles:
+    - carry
+    - escape
+    - pusher
+  - tags:
+    - archer
 57:
-  - omniknight
-  - Omniknight
+  - internal_name: 'omniknight'
+  - avg_color: '#7E5B45'
+  - name: 'Omniknight'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - white
+    - red
+  - roles:
+    - support
+    - durable
+    - nuker
+  - tags:
+    - TODO
 58:
-  - enchantress
-  - Enchantress
+  - internal_name: 'enchantress'
+  - avg_color: '#5D5A38'
+  - name: 'Enchantress'
+  - range_type: 'ranged'
+  - num_legs: 4
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - support
+    - jungler
+    - pusher
+    - durable
+    - disabler
+  - tags:
+    - nature
 59:
-  - huskar
-  - Huskar
+  - internal_name: 'huskar'
+  - avg_color: '#5A543F'
+  - name: 'Huskar'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - blue
+  - roles:
+    - carry
+    - durable
+    - initiator
+  - tags:
+    - TODO
 60:
-  - night_stalker
-  - Night Stalker
+  - internal_name: 'night_stalker'
+  - avg_color: '#134D79'
+  - name: 'Night Stalker'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - initiator
+    - durable
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 61:
-  - broodmother
-  - Broodmother
+  - internal_name: 'broodmother'
+  - avg_color: '#342A34'
+  - name: 'Broodmother'
+  - range_type: 'melee'
+  - num_legs: 8
+  - flying: fals
+  - floating: fals
+  - mounted: fals
+  - colors:
+    - violet
+    - red
+  - roles:
+    - carry
+    - pusher
+    - escape
+    - nuker
+  - tags:
+    - TODO
 62:
-  - bounty_hunter
-  - Bounty Hunter
+  - internal_name: 'bounty_hunter'
+  - avg_color: '#773F18'
+  - name: 'Bounty Hunter'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - brown
+  - roles:
+    - escape
+    - nuker
+  - tags:
+    - TODO
 63:
-  - weaver
-  - Weaver
+  - internal_name: 'weaver'
+  - avg_color: '#131D21'
+  - name: 'Weaver'
+  - range_type: 'ranged'
+  - num_legs: 4
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+    - green
+    - violet
+  - roles:
+    - carry
+    - escape
+  - tags:
+    - TODO
 64:
-  - jakiro
-  - Jakiro
+  - internal_name: 'jakiro'
+  - avg_color: '#656358'
+  - name: 'Jakiro'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+    - red
+  - roles:
+    - support
+    - nuker
+    - pusher
+    - disabler
+  - tags:
+    - TODO
 65:
-  - batrider
-  - Batrider
+  - internal_name: 'batrider'
+  - avg_color: '#5A2F0C'
+  - name: 'Batrider'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: true
+  - colors:
+    - green
+    - red
+    - brown
+  - roles:
+    - initiator
+    - jungler
+    - disabler
+    - escape
+  - tags:
+    - TODO
 66:
-  - chen
-  - Chen
+  - internal_name: 'chen'
+  - avg_color: '#4B4E4A'
+  - name: 'Chen'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - white
+  - roles:
+    - support
+    - jungler
+    - pusher
+  - tags:
+    - TODO
 67:
-  - spectre
-  - Spectre
+  - internal_name: 'spectre'
+  - avg_color: '#0D0C1F'
+  - name: 'Spectre'
+  - range_type: 'melee'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - violet
+  - roles:
+    - carry
+    - durable
+    - escape
+  - tags:
+    - TODO
 68:
-  - ancient_apparition
-  - Ancient Apparition
+  - internal_name: 'ancient_apparition'
+  - avg_color: '#496897'
+  - name: 'Ancient Apparition'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - support
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 69:
-  - doom_bringer
-  - Doom
+  - internal_name: 'doom_bringer'
+  - avg_color: '#492413'
+  - name: 'Doom'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - carry
+    - disabler
+    - initiator
+    - durable
+    - nuker
+  - tags:
+    - TODO
 70:
-  - ursa
-  - Ursa
+  - internal_name: 'ursa'
+  - avg_color: '#342B32'
+  - name: 'Ursa'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - jungler
+    - durable
+    - disabler
+  - tags:
+    - nature
 71:
-  - spirit_breaker
-  - Spirit Breaker
+  - internal_name: 'spirit_breaker'
+  - avg_color: '#39505B'
+  - name: 'Spirit Breaker'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - initiator
+    - disabler
+    - durable
+    - escape
+  - tags:
+    - TODO
 72:
-  - gyrocopter
-  - Gyrocopter
+  - internal_name: 'gyrocopter'
+  - avg_color: '#5B5C48'
+  - name: 'Gyrocopter'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: true
+  - colors:
+    - green
+    - brown
+    - red
+  - roles:
+    - carry
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 73:
-  - alchemist
-  - Alchemist
+  - internal_name: 'alchemist'
+  - avg_color: '#453636'
+  - name: 'Alchemist'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+  - roles:
+    - carry
+    - support
+    - durable
+    - disabler
+    - initiator
+    - nuker
+  - tags:
+    - TODO
 74:
-  - invoker
-  - Invoker
+  - internal_name: 'invoker'
+  - avg_color: '#543229'
+  - name: 'Invoker'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - white
+    - yellow
+  - roles:
+    - carry
+    - nuker
+    - disabler
+    - escape
+    - pusher
+  - tags:
+    - TODO
 75:
-  - silencer
-  - Silencer
+  - internal_name: 'silencer'
+  - avg_color: '#4A2B2D'
+  - name: 'Silencer'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+    - yellow
+  - roles:
+    - carry
+    - support
+    - disabler
+    - initiator
+    - nuker
+  - tags:
+    - TODO
 76:
-  - obsidian_destroyer
-  - Outworld Devourer
+  - internal_name: 'obsidian_destroyer'
+  - avg_color: '#0A3C37'
+  - name: 'Outworld Devourer'
+  - range_type: 'ranged'
+  - num_legs: 4
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - black
+  - roles:
+    - carry
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 77:
-  - lycan
-  - Lycan
+  - internal_name: 'lycan'
+  - avg_color: '#363124'
+  - name: 'Lycan'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - brown
+  - roles:
+    - carry
+    - pusher
+    - jungler
+    - durable
+    - escape
+  - tags:
+    - nature
 78:
-  - brewmaster
-  - Brewmaster
+  - internal_name: 'brewmaster'
+  - avg_color: '#745527'
+  - name: 'Brewmaster'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - red
+  - roles:
+    - carry
+    - initiator
+    - durable
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 79:
-  - shadow_demon
-  - Shadow Demon
+  - internal_name: 'shadow_demon'
+  - avg_color: '#350C15'
+  - name: 'Shadow Demon'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+    - red
+  - roles:
+    - support
+    - disabler
+    - initiator
+    - nuker
+  - tags:
+    - TODO
 80:
-  - lone_druid
-  - Lone Druid
+  - internal_name: 'lone_druid'
+  - avg_color: '#5A4B18'
+  - name: 'Lone Druid'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - green
+  - roles:
+    - carry
+    - pusher
+    - jungler
+    - durable
+  - tags:
+    - nature
 81:
-  - chaos_knight
-  - Chaos Knight
+  - internal_name: 'chaos_knight'
+  - avg_color: '#3A1C0E'
+  - name: 'Chaos Knight'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - black
+    - red
+  - roles:
+    - carry
+    - disabler
+    - durable
+    - pusher
+    - initiator
+  - tags:
+    - TODO
 82:
-  - meepo
-  - Meepo
+  - internal_name: 'meepo'
+  - avg_color: '#3A2F1C'
+  - name: 'Meepo'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+  - roles:
+    - carry
+    - escape
+    - nuker
+    - disabler
+    - initiator
+    - pusher
+  - tags:
+    - TODO
 83:
-  - treant
-  - Treant Protector
+  - internal_name: 'treant'
+  - avg_color: '#293D1E'
+  - name: 'Treant Protector'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - brown
+  - roles:
+    - support
+    - initiator
+    - durable
+    - disabler
+    - escape
+  - tags:
+    - nature
 84:
-  - ogre_magi
-  - Ogre Magi
+  - internal_name: 'ogre_magi'
+  - avg_color: '#4A4B56'
+  - name: 'Ogre Magi'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - support
+    - nuker
+    - disabler
+    - durable
+    - initiator
+  - tags:
+    - TODO
 85:
-  - undying
-  - Undying
+  - internal_name: 'undying'
+  - avg_color: '#2C3E19'
+  - name: 'Undying'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - support
+    - durable
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 86:
-  - rubick
-  - Rubick
+  - internal_name: 'rubick'
+  - avg_color: '#2A2D3F'
+  - name: 'Rubick'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - violet
+  - roles:
+    - support
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 87:
-  - disruptor
-  - Disruptor
+  - internal_name: 'disruptor'
+  - avg_color: '#454759'
+  - name: 'Disruptor'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - red
+    - blue
+  - roles:
+    - support
+    - disabler
+    - nuker
+    - initiator
+  - tags:
+    - TODO
 88:
-  - nyx_assassin
-  - Nyx Assassin
+  - internal_name: 'nyx_assassin'
+  - avg_color: '#302B23'
+  - name: 'Nyx Assassin'
+  - range_type: 'melee'
+  - num_legs: 6
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+    - brown
+  - roles:
+    - disabler
+    - nuker
+    - initiator
+    - escape
+  - tags:
+    - TODO
 89:
-  - naga_siren
-  - Naga Siren
+  - internal_name: 'naga_siren'
+  - avg_color: '#09617F'
+  - name: 'Naga Siren'
+  - range_type: 'melee'
+  - num_legs: 0
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - support
+    - pusher
+    - disabler
+    - initiator
+    - escape
+  - tags:
+    - TODO
 90:
-  - keeper_of_the_light
-  - Keeper of the Light
+  - internal_name: 'keeper_of_the_light'
+  - avg_color: '#806A4A'
+  - name: 'Keeper of the Light'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - white
+  - roles:
+    - support
+    - nuker
+    - disabler
+    - jungler
+  - tags:
+    - TODO
 91:
-  - wisp
-  - Io
+  - internal_name: 'wisp'
+  - avg_color: '#486281'
+  - name: 'Io'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - blue
+    - white
+  - roles:
+    - support
+    - escape
+    - nuker
+  - tags:
+    - TODO
 92:
-  - visage
-  - Visage
+  - internal_name: 'visage'
+  - avg_color: '#294A5F'
+  - name: 'Visage'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - brown
+  - roles:
+    - support
+    - nuker
+    - durable
+    - disabler
+    - pusher
+  - tags:
+    - TODO
 93:
-  - slark
-  - Slark
+  - internal_name: 'slark'
+  - avg_color: '#4F4E4C'
+  - name: 'Slark'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - carry
+    - escape
+    - disabler
+    - nuker
+  - tags:
+    - sea
 94:
-  - medusa
-  - Medusa
+  - internal_name: 'medusa'
+  - avg_color: '#293824'
+  - name: 'Medusa'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - carry
+    - disabler
+    - durable
+  - tags:
+    - archer
 95:
-  - troll_warlord
-  - Troll Warlord
+  - internal_name: 'troll_warlord'
+  - avg_color: '#633622'
+  - name: 'Troll Warlord'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+  - roles:
+    - carry
+    - pusher
+    - disabler
+    - durable
+  - tags:
+    - TODO
 96:
-  - centaur
-  - Centaur Warrunner
+  - internal_name: 'centaur'
+  - avg_color: '#3C312E'
+  - name: 'Centaur Warrunner'
+  - range_type: 'melee'
+  - num_legs: 4
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+  - roles:
+    - durable
+    - initiator
+    - disabler
+    - nuker
+    - escape
+  - tags:
+    - nature
 97:
-  - magnataur
-  - Magnus
+  - internal_name: 'magnataur'
+  - avg_color: '#383A3F'
+  - name: 'Magnus'
+  - range_type: 'melee'
+  - num_legs: 4
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - blue
+  - roles:
+    - initiator
+    - disabler
+    - nuker
+    - escape
+  - tags:
+    - TODO
 98:
-  - shredder
-  - Timbersaw
+  - internal_name: 'shredder'
+  - avg_color: '#4F4334'
+  - name: 'Timbersaw'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - brown
+    - green
+    - violet
+  - roles:
+    - nuker
+    - durable
+    - escape
+  - tags:
+    - TODO
 99:
-  - bristleback
-  - Bristleback
+  - internal_name: 'bristleback'
+  - avg_color: '#4A3313'
+  - name: 'Bristleback'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+    - brown
+  - roles:
+    - carry
+    - durable
+    - initiator
+    - nuker
+  - tags:
+    - TODO
 100:
-  - tusk
-  - Tusk
+  - internal_name: 'tusk'
+  - avg_color: '#686970'
+  - name: 'Tusk'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+    - white
+  - roles:
+    - initiator
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 101:
-  - skywrath_mage
-  - Skywrath Mage
+  - internal_name: 'skywrath_mage'
+  - avg_color: '#87766C'
+  - name: 'Skywrath Mage'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - yellow
+  - roles:
+    - support
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 102:
-  - abaddon
-  - Abaddon
+  - internal_name: 'abaddon'
+  - avg_color: '#14182F'
+  - name: 'Abaddon'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: true
+  - colors:
+    - violet
+    - blue
+  - roles:
+    - support
+    - carry
+    - durable
+  - tags:
+    - TODO
 103:
-  - elder_titan
-  - Elder Titan
+  - internal_name: 'elder_titan'
+  - avg_color: '#443529'
+  - name: 'Elder Titan'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - green
+  - roles:
+    - initiator
+    - disabler
+    - nuker
+    - durable
+  - tags:
+    - nature
 104:
-  - legion_commander
-  - Legion Commander
+  - internal_name: 'legion_commander'
+  - avg_color: '#644D44'
+  - name: 'Legion Commander'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+    - red
+    - brown
+  - roles:
+    - carry
+    - disabler
+    - initiator
+    - durable
+    - nuker
+  - tags:
+    - TODO
 105:
-  - techies
-  - Techies
+  - internal_name: 'techies'
+  - avg_color: '#8D8070'
+  - name: 'Techies'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - brown
+    - yellow
+  - roles:
+    - nuker
+    - disabler
+  - tags:
+    - TODO
 106:
-  - ember_spirit
-  - Ember Spirit
+  - internal_name: 'ember_spirit'
+  - avg_color: '#722E19'
+  - name: 'Ember Spirit'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - yellow
+  - roles:
+    - carry
+    - escape
+    - nuker
+    - disabler
+    - initiator
+  - tags:
+    - TODO
 107:
-  - earth_spirit
-  - Earth Spirit
+  - internal_name: 'earth_spirit'
+  - avg_color: '#3F4132'
+  - name: 'Earth Spirit'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+  - roles:
+    - nuker
+    - escape
+    - disabler
+    - initiator
+    - durable
+  - tags:
+    - nature
 108:
-  - abyssal_underlord
-  - Underlord
+  - internal_name: 'abyssal_underlord'
+  - avg_color: '#3F4243'
+  - name: 'Underlord'
+  - range_type: 'melee'
+  - num_legs: 4
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - green
+    - violet
+  - roles:
+    - support
+    - nuker
+    - disabler
+    - durable
+    - escape
+  - tags:
+    - TODO
 109:
-  - terrorblade
-  - Terrorblade
+  - internal_name: 'terrorblade'
+  - avg_color: '#203745'
+  - name: 'Terrorblade'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+    - green
+  - roles:
+    - carry
+    - pusher
+    - nuker
+  - tags:
+    - TODO
 110:
-  - phoenix
-  - Phoenix
+  - internal_name: 'phoenix'
+  - avg_color: '#8D6248'
+  - name: 'Phoenix'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - yellow
+    - red
+  - roles:
+    - support
+    - nuker
+    - initiator
+    - escape
+    - disabler
+  - tags:
+    - TODO
 111:
-  - oracle
-  - Oracle
+  - internal_name: 'oracle'
+  - avg_color: '#60625B'
+  - name: 'Oracle'
+  - range_type: 'ranged'
+  - num_legs: 0
+  - flying: false
+  - floating: true
+  - mounted: false
+  - colors:
+    - blue
+    - green
+  - roles:
+    - support
+    - nuker
+    - disabler
+    - escape
+  - tags:
+    - TODO
 112:
-  - winter_wyvern
-  - Winter Wyvern
+  - internal_name: 'winter_wyvern'
+  - avg_color: '#3E6C7D'
+  - name: 'Winter Wyvern'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: true
+  - floating: false
+  - mounted: false
+  - colors:
+    - blue
+  - roles:
+    - support
+    - disabler
+    - nuker
+  - tags:
+    - TODO
 113:
-  - arc_warden
-  - Arc Warden
+  - internal_name: 'arc_warden'
+  - avg_color: '#394170'
+  - name: 'Arc Warden'
+  - range_type: 'ranged'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - violet
+    - blue
+    - red
+  - roles:
+    - carry
+    - escape
+    - nuker
+  - tags:
+    - TODO
 114:
-  - monkey_king
-  - Monkey King
+  - internal_name: 'monkey_king'
+  - avg_color: '#694D34'
+  - name: 'Monkey King'
+  - range_type: 'melee'
+  - num_legs: 2
+  - flying: false
+  - floating: false
+  - mounted: false
+  - colors:
+    - red
+    - green
+  - roles:
+    - carry
+    - escape
+    - disabler
+    - initiator
+  - tags:
+    - nature

@@ -25,8 +25,6 @@ module Dota
         end
       end
 
-      private
-
       attr_reader :internal_name
     end
   end

@@ -11,9 +11,18 @@ module Dota
       end
 
       def initialize(id)
-        @id = id
-        @internal_name = mapping[id][0]
-        @name = mapping[id][1]
+        @id            = id
+        @internal_name = mapping[id]['internal_name']
+        @name          = mapping[id]['name']
+        @range_type    = mapping[id]['range_type']
+        @num_legs      = mapping[id]['num_legs']
+        @flying        = mapping[id]['flying']
+        @floating      = mapping[id]['floating']
+        @mounted       = mapping[id]['mounted']
+        @colors        = mapping[id]['colors']
+        @roles         = mapping[id]['roles']
+        @tags          = mapping[id]['tags']
+        @avg_color     = mapping[id]['avg_color']
       end
 
       def image_url(type = :full)
