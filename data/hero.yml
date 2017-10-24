@@ -7,8 +7,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - carry
     - escape
@@ -24,8 +22,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
   roles:
     - initiator
     - durable
@@ -42,8 +38,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - violet
   roles:
     - support
     - disabler
@@ -60,8 +54,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
   roles:
     - carry
     - disabler
@@ -79,8 +71,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - support
     - disabler
@@ -97,8 +87,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - disabler
@@ -114,8 +102,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
   roles:
     - support
     - initiator
@@ -132,9 +118,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - red
   roles:
     - carry
     - pusher
@@ -150,9 +133,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - blue
-    - white
   roles:
     - carry
     - support
@@ -170,8 +150,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - escape
@@ -189,9 +167,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - black
-    - red
   roles:
     - carry
     - nuker
@@ -206,8 +181,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - escape
@@ -224,8 +197,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - initiator
     - disabler
@@ -242,8 +213,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
   roles:
     - disabler
     - initiator
@@ -260,8 +229,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - durable
@@ -278,8 +245,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
   roles:
     - initiator
     - disabler
@@ -297,8 +262,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - escape
@@ -316,8 +279,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - disabler
@@ -335,9 +296,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - white
   roles:
     - carry
     - nuker
@@ -356,8 +314,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - support
     - initiator
@@ -375,8 +331,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - support
@@ -394,8 +348,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - nuker
   tags:
@@ -409,8 +361,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - disabler
@@ -428,8 +378,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - red
   roles:
     - support
     - carry
@@ -446,8 +394,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - support
     - disabler
@@ -464,13 +410,10 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - yellow
-    - orange
   roles:
     - support
     - pusher
-    - dsiabler
+    - disabler
     - nuker
     - initiator
   tags:
@@ -484,8 +427,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - carry
     - durable
@@ -503,9 +444,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
-    - blue
   roles:
     - initiator
     - durable
@@ -522,8 +460,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - support
     - nuker
@@ -539,8 +475,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - blue
   roles:
     - support
     - nuker
@@ -555,8 +489,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - carry
     - escape
@@ -572,8 +504,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - violet
   roles:
     - disabler
     - jungler
@@ -590,8 +520,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - yellow
   roles:
     - carry
     - nuker
@@ -607,9 +535,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - yellow
-    - red
   roles:
     - carry
     - nuker
@@ -624,8 +549,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - nuker
@@ -642,8 +565,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
   roles:
     - support
     - initiator
@@ -659,8 +580,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
   roles:
     - initiator
     - disabler
@@ -677,9 +596,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
-    - red
   roles:
     - carry
     - nuker
@@ -695,8 +611,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - support
     - nuker
@@ -714,8 +628,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - carry
     - initiator
@@ -733,8 +645,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - support
@@ -752,8 +662,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - pusher
@@ -770,9 +678,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
-    - gray
   roles:
     - carry
     - escape
@@ -787,8 +692,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - nuker
     - pusher
@@ -803,8 +706,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - carry
     - escape
@@ -819,8 +720,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - durable
@@ -837,8 +736,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - blue
   roles:
     - carry
     - nuker
@@ -854,9 +751,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
-    - gray
   roles:
     - carry
     - pusher
@@ -875,8 +769,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - support
     - nuker
@@ -892,10 +784,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
-    - yellow
-    - white
   roles:
     - initiator
     - disabler
@@ -912,8 +800,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - support
@@ -931,8 +817,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - jungler
@@ -950,9 +834,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - red
   roles:
     - carry
     - durable
@@ -970,8 +851,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
   roles:
     - initiator
     - jungler
@@ -988,8 +867,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
   roles:
     - carry
     - escape
@@ -1005,9 +882,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - white
-    - red
   roles:
     - support
     - durable
@@ -1023,8 +897,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - support
     - jungler
@@ -1042,9 +914,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
-    - blue
   roles:
     - carry
     - durable
@@ -1060,8 +929,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - initiator
@@ -1079,9 +946,6 @@
   flying: fals
   floating: fals
   mounted: fals
-  colors:
-    - violet
-    - red
   roles:
     - carry
     - pusher
@@ -1098,9 +962,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
-    - brown
   roles:
     - escape
     - nuker
@@ -1115,10 +976,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
-    - green
-    - violet
   roles:
     - carry
     - escape
@@ -1133,9 +990,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - blue
-    - red
   roles:
     - support
     - nuker
@@ -1152,10 +1006,6 @@
   flying: true
   floating: false
   mounted: true
-  colors:
-    - green
-    - red
-    - brown
   roles:
     - initiator
     - jungler
@@ -1172,8 +1022,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - white
   roles:
     - support
     - jungler
@@ -1189,8 +1037,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - violet
   roles:
     - carry
     - durable
@@ -1206,8 +1052,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - blue
   roles:
     - support
     - disabler
@@ -1223,8 +1067,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
   roles:
     - carry
     - disabler
@@ -1242,8 +1084,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - jungler
@@ -1260,8 +1100,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - initiator
@@ -1279,10 +1117,6 @@
   flying: true
   floating: false
   mounted: true
-  colors:
-    - green
-    - brown
-    - red
   roles:
     - carry
     - nuker
@@ -1298,8 +1132,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - yellow
   roles:
     - carry
     - support
@@ -1318,9 +1150,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - white
-    - yellow
   roles:
     - carry
     - nuker
@@ -1338,9 +1167,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
-    - yellow
   roles:
     - carry
     - support
@@ -1358,9 +1184,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - green
-    - black
   roles:
     - carry
     - nuker
@@ -1376,9 +1199,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
-    - brown
   roles:
     - carry
     - pusher
@@ -1396,9 +1216,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - red
   roles:
     - carry
     - initiator
@@ -1416,9 +1233,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
-    - red
   roles:
     - support
     - disabler
@@ -1435,9 +1249,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - green
   roles:
     - carry
     - pusher
@@ -1454,9 +1265,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - black
-    - red
   roles:
     - carry
     - disabler
@@ -1474,8 +1282,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
   roles:
     - carry
     - escape
@@ -1494,9 +1300,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
-    - brown
   roles:
     - support
     - initiator
@@ -1514,8 +1317,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - support
     - nuker
@@ -1533,8 +1334,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - support
     - durable
@@ -1551,9 +1350,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
-    - violet
   roles:
     - support
     - disabler
@@ -1569,9 +1365,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - red
-    - blue
   roles:
     - support
     - disabler
@@ -1588,9 +1381,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
-    - brown
   roles:
     - disabler
     - nuker
@@ -1607,8 +1397,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - support
@@ -1627,8 +1415,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - white
   roles:
     - support
     - nuker
@@ -1645,9 +1431,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - blue
-    - white
   roles:
     - support
     - escape
@@ -1663,9 +1446,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - green
-    - brown
   roles:
     - support
     - nuker
@@ -1683,8 +1463,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - carry
     - escape
@@ -1701,8 +1479,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - carry
     - disabler
@@ -1718,8 +1494,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
   roles:
     - carry
     - pusher
@@ -1736,8 +1510,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
   roles:
     - durable
     - initiator
@@ -1755,9 +1527,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - blue
   roles:
     - initiator
     - disabler
@@ -1774,10 +1543,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - brown
-    - green
-    - violet
   roles:
     - nuker
     - durable
@@ -1793,9 +1558,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - yellow
-    - brown
   roles:
     - carry
     - durable
@@ -1812,9 +1574,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - blue
-    - white
   roles:
     - initiator
     - disabler
@@ -1830,9 +1589,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - red
-    - yellow
   roles:
     - support
     - nuker
@@ -1848,9 +1604,6 @@
   flying: false
   floating: false
   mounted: true
-  colors:
-    - violet
-    - blue
   roles:
     - support
     - carry
@@ -1866,9 +1619,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - green
   roles:
     - initiator
     - disabler
@@ -1885,10 +1635,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - yellow
-    - red
-    - brown
   roles:
     - carry
     - disabler
@@ -1906,9 +1652,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - brown
-    - yellow
   roles:
     - nuker
     - disabler
@@ -1923,9 +1666,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
-    - yellow
   roles:
     - carry
     - escape
@@ -1943,8 +1683,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
   roles:
     - nuker
     - escape
@@ -1962,9 +1700,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - green
-    - violet
   roles:
     - support
     - nuker
@@ -1982,9 +1717,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
-    - green
   roles:
     - carry
     - pusher
@@ -2000,9 +1732,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - yellow
-    - red
   roles:
     - support
     - nuker
@@ -2020,9 +1749,6 @@
   flying: false
   floating: true
   mounted: false
-  colors:
-    - blue
-    - green
   roles:
     - support
     - nuker
@@ -2039,8 +1765,6 @@
   flying: true
   floating: false
   mounted: false
-  colors:
-    - blue
   roles:
     - support
     - disabler
@@ -2056,10 +1780,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - violet
-    - blue
-    - red
   roles:
     - carry
     - escape
@@ -2075,9 +1795,6 @@
   flying: false
   floating: false
   mounted: false
-  colors:
-    - red
-    - green
   roles:
     - carry
     - escape

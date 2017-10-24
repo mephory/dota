@@ -4,7 +4,7 @@ module Dota
       include Utilities::Mapped
 
       attr_reader :id, :name, :range_type, :num_legs, :flying, :floating,
-        :mounted, :colors, :roles, :tags, :avg_color
+        :mounted, :roles, :tags, :avg_color
 
       def self.find(id)
         hero = mapping[id]
@@ -20,7 +20,6 @@ module Dota
         @flying        = mapping[id]['flying']
         @floating      = mapping[id]['floating']
         @mounted       = mapping[id]['mounted']
-        @colors        = mapping[id]['colors']
         @roles         = mapping[id]['roles']
         @tags          = mapping[id]['tags']
         @avg_color     = mapping[id]['avg_color']
