@@ -1802,3 +1802,33 @@
     - initiator
   tags:
     - nature
+119:
+  internal_name: 'dark_willow'
+  avg_color: '#000000'
+  name: 'Dark Willow'
+  range_type: 'ranged'
+  num_legs: 2
+  flying: true
+  floating: false
+  mounted: false
+  roles:
+    - support
+    - nuker
+    - disabler
+    - escape
+120:
+  internal_name: 'pangolier'
+  avg_color: '#000000'
+  name: 'Pangolier'
+  range_type: 'melee'
+  num_legs: 2
+  flying: false
+  floating: false
+  mounted: false
+  roles:
+    - carry
+    - nuker
+    - disabler
+    - durable
+    - escape
+    - initiator
