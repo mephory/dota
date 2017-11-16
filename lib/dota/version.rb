@@ -1,3 +1,3 @@
 module Dota
-  VERSION = "0.0.60"
+  VERSION = "0.0.70"
 end
